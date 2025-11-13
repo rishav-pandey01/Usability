@@ -1,4 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
 
 * {
     margin: 0;
@@ -146,4 +147,67 @@ ul {
 
 .header-right img{
 width: 100%;
+}
+
+.box1 h4{
+    margin: 20px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: skyblue;
+    font-size: larger;
+}
+
+.logos{
+    align-items: center;
+    justify-content: center;
+}
+
+.logos img{
+    margin-left: 80px;
+    height: 46px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.features-section{
+    padding: 80px var(--padding-inline-section);
+}
+.section-header {
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+ primary-button{
+    border: 0.5px solid var(--secondary-text-color);
+    border-radius: 6px;
+    font-weight: 500;
+    color: var(--primary-text-color);
+    padding: 12px 24px;
+}
+.primary-button:hover{
+    color: var(--accent-color-dark);
+    transition: 0.3;
+    ease-in-out;
+}
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+.features-area{
+    flex-wrap: wrap;
+    background-image: url(./assets/asset_34.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    justify-content: space-evenly;
+    text-align: center;
+    gap: 40px;
+    margin-top: 20px;
+}
+.features-card{
+    flex-direction: column;
+    gap: 20px;
+    max-width: 30px;
+    align-items: center;
+}
+.flex{
+    display: flex;
 }
